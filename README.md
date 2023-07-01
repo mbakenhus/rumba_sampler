@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # rumba_sampler
 
 R implementation of the RUMBA algorithm
