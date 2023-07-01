@@ -1,0 +1,218 @@
+Loading required package: Matrix
+Loading required package: digest
+Loading required package: pracma
+
+Attaching package: ‘pracma’
+
+The following objects are masked from ‘package:Matrix’:
+
+    expm, lu, tril, triu
+
+
+Starting point: 1
+
+
+iteration: 1
+	fiber elements sampled this iteration:  74
+	unique elements sampled this iteration:  74
+	cumulative number of unique fiber elements sampled this step:  74
+
+
+iteration: 2
+	fiber elements sampled this iteration:  87
+	unique elements sampled this iteration:  72
+	cumulative number of unique fiber elements sampled this step:  146
+
+
+iteration: 3
+	fiber elements sampled this iteration:  97
+	unique elements sampled this iteration:  80
+	cumulative number of unique fiber elements sampled this step:  226
+
+
+iteration: 4
+	fiber elements sampled this iteration:  88
+	unique elements sampled this iteration:  62
+	cumulative number of unique fiber elements sampled this step:  288
+
+
+iteration: 5
+	fiber elements sampled this iteration:  85
+	unique elements sampled this iteration:  58
+	cumulative number of unique fiber elements sampled this step:  346
+
+
+Summary for starting point 1:
+	number of fiber elements sampled this step:  346
+	number of new fiber elements sampled:  345
+	cumulative number of unique fiber elements sampled:  346
+
+
+Starting point: 2
+
+
+iteration: 1
+	fiber elements sampled this iteration:  78
+	unique elements sampled this iteration:  78
+	cumulative number of unique fiber elements sampled this step:  78
+
+
+iteration: 2
+	fiber elements sampled this iteration:  86
+	unique elements sampled this iteration:  69
+	cumulative number of unique fiber elements sampled this step:  147
+
+
+iteration: 3
+	fiber elements sampled this iteration:  89
+	unique elements sampled this iteration:  70
+	cumulative number of unique fiber elements sampled this step:  217
+
+
+iteration: 4
+	fiber elements sampled this iteration:  83
+	unique elements sampled this iteration:  59
+	cumulative number of unique fiber elements sampled this step:  276
+
+
+iteration: 5
+	fiber elements sampled this iteration:  89
+	unique elements sampled this iteration:  67
+	cumulative number of unique fiber elements sampled this step:  343
+
+
+Summary for starting point 2:
+	number of fiber elements sampled this step:  343
+	number of new fiber elements sampled:  336
+	cumulative number of unique fiber elements sampled:  682
+
+
+Starting point: 3
+
+
+iteration: 1
+	fiber elements sampled this iteration:  74
+	unique elements sampled this iteration:  74
+	cumulative number of unique fiber elements sampled this step:  74
+
+
+iteration: 2
+	fiber elements sampled this iteration:  85
+	unique elements sampled this iteration:  72
+	cumulative number of unique fiber elements sampled this step:  146
+
+
+iteration: 3
+	fiber elements sampled this iteration:  98
+	unique elements sampled this iteration:  74
+	cumulative number of unique fiber elements sampled this step:  220
+
+
+iteration: 4
+	fiber elements sampled this iteration:  86
+	unique elements sampled this iteration:  67
+	cumulative number of unique fiber elements sampled this step:  287
+
+
+iteration: 5
+	fiber elements sampled this iteration:  87
+	unique elements sampled this iteration:  56
+	cumulative number of unique fiber elements sampled this step:  343
+
+
+Summary for starting point 3:
+	number of fiber elements sampled this step:  343
+	number of new fiber elements sampled:  337
+	cumulative number of unique fiber elements sampled:  1019
+
+
+Starting point: 4
+
+
+iteration: 1
+	fiber elements sampled this iteration:  78
+	unique elements sampled this iteration:  78
+	cumulative number of unique fiber elements sampled this step:  78
+
+
+iteration: 2
+	fiber elements sampled this iteration:  85
+	unique elements sampled this iteration:  69
+	cumulative number of unique fiber elements sampled this step:  147
+
+
+iteration: 3
+	fiber elements sampled this iteration:  85
+	unique elements sampled this iteration:  63
+	cumulative number of unique fiber elements sampled this step:  210
+
+
+iteration: 4
+	fiber elements sampled this iteration:  88
+	unique elements sampled this iteration:  64
+	cumulative number of unique fiber elements sampled this step:  274
+
+
+iteration: 5
+	fiber elements sampled this iteration:  91
+	unique elements sampled this iteration:  59
+	cumulative number of unique fiber elements sampled this step:  333
+
+
+Summary for starting point 4:
+	number of fiber elements sampled this step:  333
+	number of new fiber elements sampled:  301
+	cumulative number of unique fiber elements sampled:  1320
+
+
+Starting point: 5
+
+
+iteration: 1
+	fiber elements sampled this iteration:  86
+	unique elements sampled this iteration:  86
+	cumulative number of unique fiber elements sampled this step:  86
+
+
+iteration: 2
+	fiber elements sampled this iteration:  81
+	unique elements sampled this iteration:  65
+	cumulative number of unique fiber elements sampled this step:  151
+
+
+iteration: 3
+	fiber elements sampled this iteration:  81
+	unique elements sampled this iteration:  62
+	cumulative number of unique fiber elements sampled this step:  213
+
+
+iteration: 4
+	fiber elements sampled this iteration:  83
+	unique elements sampled this iteration:  54
+	cumulative number of unique fiber elements sampled this step:  267
+
+
+iteration: 5
+	fiber elements sampled this iteration:  87
+	unique elements sampled this iteration:  60
+	cumulative number of unique fiber elements sampled this step:  327
+
+
+Summary for starting point 5:
+	number of fiber elements sampled this step:  327
+	number of new fiber elements sampled:  302
+	cumulative number of unique fiber elements sampled:  1622
+
+
+Validating sample: 
+	(0) b=A*x0 hash: 92973b60d1c2647263e097523a0d73cecd271005979c144408a14866cd629850
+	--------------------------------------------------------------------------------------
+	(1) b=A*x  hash: 92973b60d1c2647263e097523a0d73cecd271005979c144408a14866cd629850
+done
+
+Fiber Sample variable: FA
+   user  system elapsed 
+  2.032   0.046   2.151 
+
+
+Total number of unique fiber elements sampled: 1622
