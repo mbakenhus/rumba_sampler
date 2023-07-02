@@ -1,6 +1,6 @@
 # rumba_sampler
 
-R implementation of the RUMBA algorithm
+This is the R implementation of the RUMBA algorithm prsented in the paper ``[Sampling lattice points in a polytope: a Bayesian biased algorithm with random updates](www.arxiv.org/find)" by Miles Bakenhus and Sonja Petrović. The folder "output" contains data and figures contained in the Simulations section of the paper. 
 
 Function implementaiton of RUMBA in `samplers.R`:
 
