@@ -2,7 +2,7 @@ require(Matrix)
 require(digest)
 
 #' Samples a fiber by updating params using average parameter values 
-#' for feasible samples
+#' for feasible samples.
 #' 
 #' @param x A numeric vector representing the initial feasible point
 #' @param basis A matrix with rows that span the lattice 
@@ -92,7 +92,8 @@ simpleSampler <- function(x, basis,
 
 
 #' Samples a fiber by updating params using conjugate prior 
-#' expected parameter values for feasible samples
+#' expected parameter values for feasible samples. This function 
+#' corresponds to the "Algorithm 1"  in https://arxiv.org/pdf/2307.02428.pdf
 #' 
 #' @param x A numeric vector representing the initial feasible point
 #' @param basis A matrix with rows that span the lattice 
@@ -252,7 +253,8 @@ iterateSimple <- function(x, basis, num_itr,
 
 
 
-#' Iterates the bayesSampler() updating the parameters
+#' Iterates the bayesSampler() updating the parameters. This function 
+#' corresponds to the "Algorithm 2" loop in https://arxiv.org/pdf/2307.02428.pdf
 #' 
 #' @param x A numeric vector representing the initial feasible point
 #' @param basis A matrix with rows that span the lattice 
@@ -400,7 +402,8 @@ movingSimple <- function(init_x, basis,
   return(list(fiber=fiber_points, fiber_table=fiber_hash))
 }
 
-#' Moves iterateBayes() updating the initial point
+#' Moves iterateBayes() updating the initial point. This function 
+#' corresponds to "Algorithm 3" in https://arxiv.org/pdf/2307.02428.pdf
 #' 
 #' @param init_x A numeric vector representing the initial feasible point
 #' @param basis A matrix with rows that span the lattice 
